@@ -1,0 +1,95 @@
+body {
+	background-color: #000;
+	background-image: url("../images/bg.png");
+}
+
+#wrapper {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: #ccc;
+	border-radius: 12px;
+	background-image: url("../images/bg2.png");
+}
+
+header {
+	height: 200px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 12px 12px 0 0;
+	padding: 20px;
+}
+
+#hleft {
+	width: 20%;
+	float: left;
+}
+
+#hright {
+	width: 80%;
+	float: right;
+}
+
+#avatar {
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 5px rgba(255,255,255,0.4);
+}
+
+#hright {
+	font-size: 26px;
+}
+
+article {
+	padding: 20px;
+	font-size: 18px;
+	overflow: hidden;
+}
+
+#body {
+	width: 70%;
+	float: left;
+}
+
+#sidebar {
+	width: 30%;
+	float: right;
+}
+
+#tia h3 {
+	text-align: center;
+	color: orange;
+	font-size: 30px;
+}
+
+#tia div {
+	width: 100%;
+	display: block;
+	float: none;
+	height: 30px;
+}
+
+#tia div img {
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
+#tia div p {
+	vertical-align: middle;
+}
+
+#sidebar #social a img {
+	width: 50px;
+}
+
+#sidebar #posts a {
+	text-decoration: none;
+	color: #FF8811;
+	line-height: 15px;
+}
